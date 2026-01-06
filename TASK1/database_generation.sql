@@ -170,4 +170,3 @@ CREATE TRIGGER trg_check_max_course_allocation
 BEFORE INSERT ON allocation
 FOR EACH ROW
 EXECUTE FUNCTION check_max_course_allocation();
-<
